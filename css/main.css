@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+@import url('./style.css');
+.nav-item{
+    position: relative;
+}
+.selected{
+    position: absolute;
+    color:red;
+    top:0;
+    right:0;
+    padding: 5px 8px;
+    border:1px solid red;
+    border-radius: 50%;
+   font-size: 10px;
+   font-weight: 700px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    margin-right:40px;
+}
+.card-img-top{
+    padding:20px;
+}
+.card{
+    margin-bottom:20px;
+
+}
+.select{
+    position: relative;
+}
+.basselect{
+    position: absolute;
+    color:white;
+    top:0;
+    right:0;
+    padding: 5px 8px;
+    border:1px solid red;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 700px;
+
+}
+.basket__title{
+    text-align: center;
+    padding:20px;
+}
+.basket__product{
+    display: flex;
+    justify-content: space-evenly;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    padding:10px;
+    text-align: center;
+}
+
+.basket__tovar{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+   
+}
+
+.basket-span{
+ margin-left:137px;
+}
+.basket-spani{
+   
+    border:1px solid;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+
+.icon{
+    width: 20px;
+}
+.basket-name{
+   margin-left:-135px;
+
+}
+.span-items{
+  /* display: flex;
+  justify-content: center; */
+  padding: 10px;
+}
+.sub-price{
+    text-align: end;
+    margin-top:115px;
+
+
+}
+
+.subtotal-price{
+    font-size:32px;
+    font-weight: 600;
+}
+.sub-btn{
+    padding:5px 25px;
+    color:white;
+    border:none;
+    background-color: rgb(36, 130, 238);
+}
+.subtotal{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.btn-left{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+.update{
+    padding: 5px 10px;
+    border:2px solid gray;
+    background-color: white;
+    margin-right:12px;
+}
+.cash{
+    padding: 5px 10px;
+    border:2px solid gray;
+    background-color: white;
+}
+.minus{
+    margin-right:10px;
+}
+.plus{
+    margin-left:10px;
+}
